@@ -1,0 +1,20 @@
+{
+  "apps": [
+    {"id": "284882215", "name": "Flappy Bird", "bundle_id": "com.dotgears.flappybird"},
+    {"id": "510461141", "name": "Silent Phone", "bundle_id": "com.silentcircle.silentphone"},
+    {"id": "544007664", "name": "Classic Word Game", "bundle_id": "com.magensco.wordgame"},
+    {"id": "643404931", "name": "Dockem", "bundle_id": "com.frozenpepper.dockem"},
+    {"id": "599523038", "name": "Walcat", "bundle_id": "co.pixite.walcat"},
+    {"id": "952952102", "name": "Hum", "bundle_id": "com.hum.hum"},
+    {"id": "895953285", "name": "Factle", "bundle_id": "com.factle.app"},
+    {"id": "1040647709", "name": "Presto", "bundle_id": "com.presto.presto"},
+    {"id": "1192764478", "name": "Vine", "bundle_id": "com.vine.iphone"},
+    {"id": "333206289", "name": "Truecaller", "bundle_id": "com.truecaller"},
+    {"id": "477227240", "name": "Triviados", "bundle_id": "com.akral.triviados"},
+    {"id": "378458261", "name": "Grooveshark", "bundle_id": "com.grooveshark"},
+    {"id": "485925293", "name": "Trapster", "bundle_id": "com.trapster.iphone"},
+    {"id": "421332709", "name": "Banjo", "bundle_id": "com.banjo"}
+  ],
+  "updated_at": "2026-04-07T15:30:00Z",
+  "count": 14
+}

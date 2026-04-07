@@ -1,0 +1,13 @@
+{
+    "id": "378458261",
+    "name": "Grooveshark",
+    "bundle_id": "com.grooveshark",
+    "icon_url": "",
+    "versions": [],
+    "delisted": true,
+    "added_at": "2026-04-07T15:30:00Z",
+    "added_by": "system",
+    "sources": [
+        "public-list"
+    ]
+}
