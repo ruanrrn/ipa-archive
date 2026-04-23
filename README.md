@@ -1,52 +1,73 @@
 # ipa-archive
 
-Community-driven archived/delisted iOS app metadata for ipaTool.
+Community-driven archive for delisted iOS apps, powered by ipaTool.
 
 ## Structure
 
-- `data/{appId}.json` — per-app metadata with version history
+```
+apps/
+  delisted/
+    1137819437.json          # Per-app detail
+indexes/
+  delisted-lite.json         # List index for fast loading
+assets/
+  icons/
+    11/
+      1137819437.png         # App icon (first 2 digits of app ID as subfolder)
+```
 
-## App JSON Format
+## Schema
+
+### delisted-lite.json (index)
+
+Flat array for list views:
+
+```json
+[
+  {
+    "id": "1137819437",
+    "name": "iFreeTime",
+    "bundle_id": "one.icc.iFreeTime",
+    "artist_name": "婵婵 黄",
+    "icon_asset": "assets/icons/11/1137819437.png",
+    "latest_version": "6.8.5",
+    "updated_at": "2026-04-23T10:20:00Z"
+  }
+]
+```
+
+### apps/delisted/{id}.json (detail)
 
 ```json
 {
-  "id": "389801252",
-  "name": "Instagram",
-  "icon_url": "https://...",
-  "icon_bak_url": "data:image/png;base64,...",
-  "bundle_id": "com.burbn.instagram",
+  "id": "1137819437",
+  "name": "iFreeTime",
+  "bundle_id": "one.icc.iFreeTime",
+  "artist_name": "婵婵 黄",
+  "icon_asset": "assets/icons/11/1137819437.png",
+  "icon_url": "",
+  "delisted": true,
+  "notes": [
+    "商店已不可检索",
+    "由 ipatool 从本地 IPA 补全版本信息"
+  ],
   "versions": [
     {
-      "version_id": "895063712",
-      "version": "312.1.2",
-      "description": "Last version with feature X"
+      "version_id": "",
+      "version": "6.8.5",
+      "released_at": "",
+      "size_bytes": 27092783,
+      "description": ""
     }
   ],
-  "delisted": false,
-  "added_at": "2026-04-07T10:00:00Z"
+  "updated_at": "2026-04-23T10:20:00Z"
 }
 ```
 
-### Field Reference
-
-| Field | Type | Required | Description |
-|-------|------|----------|-------------|
-| `id` | string | ✅ | App Store app ID |
-| `name` | string | ✅ | App display name |
-| `icon_url` | string | ✅ | Icon URL from iTunes API |
-| `icon_bak_url` | string | ❌ | Base64-encoded icon image (data URI), fallback when icon_url expires |
-| `bundle_id` | string | ✅ | App bundle identifier |
-| `versions` | array | ✅ | Version history (can be empty) |
-| `versions[].version_id` | string | ✅ | External identifier (platform-specific version ID) |
-| `versions[].version` | string | ✅ | Human-readable version string |
-| `versions[].description` | string | ❌ | Notes about this specific version (e.g. notable features, jailbreak requirement) |
-| `delisted` | boolean | ✅ | Whether the app has been removed from App Store |
-| `added_at` | string | ✅ | ISO 8601 timestamp when archived |
-
 ## Contributing
 
-1. Fork this repository
-2. Add or update `data/{appId}.json`
-3. Submit a Pull Request
+Use [ipaTool](https://github.com/ruanrrn/ipatool) to prepare and submit contributions via PR.
 
-ipaTool can auto-generate PRs from your local favorites via the "Publish" feature.
+## License
+
+CC0-1.0
