@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "count": 1,
-  "generated_at": "2026-04-26T16:27:18Z",
+  "count": 2,
+  "generated_at": "2026-04-26T18:05:58Z",
   "apps": [
     {
       "id": "1357644265",
@@ -11,6 +11,15 @@
       "icon_asset": "assets/icons/13/1357644265.png",
       "latest_version": "1.2.2",
       "updated_at": "2026-04-25T05:46:29.831658679+00:00"
+    },
+    {
+      "id": "1561787704",
+      "name": "源阅读",
+      "bundle_id": "com.yuedu.sourceread",
+      "artist_name": "com.yuedu.sourceread",
+      "icon_asset": "assets/icons/15/1561787704.png",
+      "latest_version": "1.4.7",
+      "updated_at": "2026-04-25T10:27:56.079537510+00:00"
     }
   ]
 }
