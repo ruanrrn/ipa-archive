@@ -1,1 +1,16 @@
-[]
+{
+  "schema_version": 1,
+  "count": 1,
+  "generated_at": "2026-04-26T16:27:18Z",
+  "apps": [
+    {
+      "id": "1357644265",
+      "name": "Anubis",
+      "bundle_id": "com.pixelcyber.anubis",
+      "artist_name": "com.pixelcyber.anubis",
+      "icon_asset": "assets/icons/13/1357644265.png",
+      "latest_version": "1.2.2",
+      "updated_at": "2026-04-25T05:46:29.831658679+00:00"
+    }
+  ]
+}
