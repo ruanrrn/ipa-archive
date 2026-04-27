@@ -2,20 +2,63 @@
   "id": "1561787704",
   "name": "源阅读",
   "bundle_id": "com.yuedu.sourceread",
-  "artist_name": "com.yuedu.sourceread",
+  "artist_name": "凯 程",
   "icon_asset": "assets/icons/15/1561787704.png",
   "delisted": true,
+  "notes": [],
   "countries": [
     "CN"
   ],
   "versions": [
     {
-      "version_id": "d168ab28-6452-47a0-9989-e7663871322c",
+      "version_id": "846094453",
       "version": "1.4.7",
+      "released_at": null,
       "size_bytes": 64198986,
-      "description": "由本地下载记录聚合",
-      "source": "local"
+      "description": "由本地下载记录聚合"
+    },
+    {
+      "version_id": "",
+      "version": "1.4.6",
+      "released_at": "2021-12-20 11:07:13",
+      "size_bytes": null,
+      "description": null
+    },
+    {
+      "version_id": "",
+      "version": "1.4.5",
+      "released_at": "2021-12-05 16:52:19",
+      "size_bytes": null,
+      "description": null
+    },
+    {
+      "version_id": "",
+      "version": "1.4.4",
+      "released_at": "2021-11-19 15:23:33",
+      "size_bytes": null,
+      "description": null
+    },
+    {
+      "version_id": "",
+      "version": "1.4.3",
+      "released_at": "2021-11-04 21:09:43",
+      "size_bytes": null,
+      "description": null
+    },
+    {
+      "version_id": "",
+      "version": "1.4.2",
+      "released_at": "2021-10-20 06:40:40",
+      "size_bytes": null,
+      "description": null
+    },
+    {
+      "version_id": "",
+      "version": "1.3.9",
+      "released_at": "2021-09-10 16:00:19",
+      "size_bytes": null,
+      "description": null
     }
   ],
-  "updated_at": "2026-04-27T06:08:27.245046960+00:00"
+  "updated_at": "2026-04-27T15:50:00+00:00"
 }
