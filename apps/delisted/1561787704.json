@@ -1,0 +1,21 @@
+{
+  "id": "1561787704",
+  "name": "源阅读",
+  "bundle_id": "com.yuedu.sourceread",
+  "artist_name": "com.yuedu.sourceread",
+  "icon_asset": "assets/icons/15/1561787704.png",
+  "delisted": true,
+  "countries": [
+    "CN"
+  ],
+  "versions": [
+    {
+      "version_id": "d168ab28-6452-47a0-9989-e7663871322c",
+      "version": "1.4.7",
+      "size_bytes": 64198986,
+      "description": "由本地下载记录聚合",
+      "source": "local"
+    }
+  ],
+  "updated_at": "2026-04-27T06:08:27.245046960+00:00"
+}
