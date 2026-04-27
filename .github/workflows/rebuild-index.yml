@@ -66,6 +66,7 @@ jobs:
             apps: .
           }' "$TEMP_FILE")
 
+          mkdir -p indexes
           echo "$FINAL" | jq '.' > "$INDEX_FILE"
           echo "Rebuilt index with $COUNT apps"
 
