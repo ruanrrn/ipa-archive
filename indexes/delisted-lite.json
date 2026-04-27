@@ -3,14 +3,5 @@
   "count": 1,
   "generated_at": "2026-04-27T04:45:52Z",
   "apps": [
-    {
-      "id": "1357644265",
-      "name": "爱阅书香",
-      "bundle_id": "com.pixelcyber.anubis",
-      "artist_name": "com.pixelcyber.anubis",
-      "icon_asset": "assets/icons/13/1357644265.png",
-      "latest_version": "1.2.2",
-      "updated_at": "2026-04-27T04:42:30.358724717+00:00"
-    }
   ]
 }
