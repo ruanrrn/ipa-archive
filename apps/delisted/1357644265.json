@@ -1,0 +1,21 @@
+{
+  "id": "1357644265",
+  "name": "爱阅书香",
+  "bundle_id": "com.pixelcyber.anubis",
+  "artist_name": "com.pixelcyber.anubis",
+  "icon_asset": "assets/icons/13/1357644265.png",
+  "delisted": true,
+  "countries": [
+    "CN"
+  ],
+  "versions": [
+    {
+      "version_id": "job-anubis-test",
+      "version": "1.2.2",
+      "size_bytes": 52428800,
+      "description": "由本地下载记录聚合",
+      "source": "local"
+    }
+  ],
+  "updated_at": "2026-04-27T04:42:30.358724717+00:00"
+}
